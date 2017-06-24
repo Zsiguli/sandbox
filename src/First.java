@@ -1,6 +1,6 @@
 public class First implements Connection {
 
-  public void sout() {
+  private void sout() {
     System.out.println("I am the first!");
   }
 }
