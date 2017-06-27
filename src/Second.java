@@ -1,6 +1,7 @@
-class Second implements Connection {
+class Second extends ConnectionAdapter {
 
-  public void sout() {
-    System.out.println("I am the second one!");
+  @Override
+  public void soutB() {
+    System.out.println("I am the second one! + B");
   }
 }
