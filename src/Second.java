@@ -1,6 +1,6 @@
-public class Second implements Connection {
+class Second implements Connection {
 
-  ffasldfa;slkfjasldfkjas;lfdkjvoid sout() {
+  public void sout() {
     System.out.println("I am the second one!");
   }
 }

@@ -1,2 +1,3 @@
-public interface Connection {
+interface Connection {
+  void sout();
 }

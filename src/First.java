@@ -1,6 +1,6 @@
-public class First implements Connection {
+class First implements Connection {
 
-  void sout() {
+  public void sout() {
     System.out.println("I am the first!");
   }
 }
